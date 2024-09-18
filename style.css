@@ -1,0 +1,109 @@
+header{
+    background-color: rgb(18, 129, 198);
+    max: width 10000px;
+}
+body{
+    background-color: aliceblue;}
+h1{
+    color:white;
+    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-style: oblique;
+}
+section.firstsection{
+    width: 315px; ;
+    background-color: rgb(255, 255, 255);
+    margin-top:  15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    border-radius: 20px;
+    padding: 25px;
+    
+}
+#add{
+    background-color:rgb(69, 129, 233);
+    color:white;
+    border-radius: 6px;
+    width: 100px;
+    padding: 6px;
+    border: none;
+}
+section.secondsection{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    gap: 100px;
+}
+
+ul li{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style-type:none;
+    border-radius: 6px;
+   
+    border-style: hidden hidden hidden solid;
+    border-width: thin thin thin 6px;
+    
+
+}
+#title{
+    width:50px;
+    background-color: rgb(210, 209, 209);
+    color:rgb(65, 63, 63);
+    border-radius:  6px;
+    padding: 6px;
+    
+}
+#ndtitle{
+    width: 100px;
+    background-color:rgb(123, 156, 188);
+    color: rgb(57, 121, 206);
+    border-radius: 6px;
+    padding: 6px;
+}
+#rdtitle{
+    width: 50px;
+    background-color: rgb(194, 239, 194);
+    color: rgb(108, 213, 108);
+    border-radius: 6px;
+    padding: 6px;
+
+}
+#fthtitle{
+    width: 60px;
+    background-color: rgb(248, 191, 191);
+    color: rgb(180, 92, 92);
+    border-radius: 6px;
+    padding: 6px;
+}
+#log li {
+    border-color: rgb(210, 209, 209);
+}
+#process li{
+    border-color:rgb(123, 156, 188) ;
+}
+#ready li{
+    border-color:rgb(194, 239, 194) ;
+}
+#list li{
+    border-color: rgb(248, 191, 191);
+}
+#clear{
+    background-color: rgb(180, 92, 92);
+    color: white;
+    border: 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 5px;
+    margin-left: 71px;
+    margin-top: 15px;
+
+}
