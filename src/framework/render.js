@@ -3,21 +3,22 @@ const RenderPosition = {
     AFTERBEGIN: 'afterbegin',
     BEFOREEND: 'beforeend',
     AFTEREND: 'afterend',
-  };
+};
   
   
-  function createElement(template) {
+function createElement(template) {
     const newElement = document.createElement('div');
     newElement.innerHTML = template;
   
     console.log(template)
     return newElement.firstElementChild;
-  }
+}
   
   
-  function render(component, container, place = RenderPosition.BEFOREEND) {
+function render(component, container, place = RenderPosition.BEFOREEND) {
+  console.log("render");
   container.insertAdjacentElement(place, component.getElement());
-  }
+}
   
   
-  export {RenderPosition, createElement, render};
+export {RenderPosition, createElement, render};
