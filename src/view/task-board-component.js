@@ -1,19 +1,16 @@
 import {createElement} from '../framework/render.js';
 import { AbstractComponent } from '../framework/view/abstract-component.js';
 
-
-function createHeaderComponentTemplate() {
+function createTaskBoardComponentTemplate() {
     return (
-        `<header class="main_header">
-        <h1>Список задач</h1>
-        </header>`
+        `<section class="taskboard"></section>`
       );
 }
 
 
-export default class HeaderComponent extends AbstractComponent{
+export default class TaskBoardComponent extends AbstractComponent{
   get template() {
-    return createHeaderComponentTemplate();
+    return createTaskBoardComponentTemplate();
   }
 
 
@@ -22,7 +19,7 @@ export default class HeaderComponent extends AbstractComponent{
   //     this.element = createElement(this.getTemplate());
   //   }
 
-
+  //   //(this.element)
   //   return this.element;
   // }
 
